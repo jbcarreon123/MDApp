@@ -68,7 +68,7 @@ $( window ).resize(function() {
 		if (connected) {
 			document.getElementById("btn-back").classList.toggle("d-none", false);
 		}
-		document.getElementById("btn-fullscreen").classList.toggle("d-none", false);
+		// document.getElementById("btn-fullscreen").classList.toggle("d-none", false);
 		document.getElementById("btn-dark").classList.toggle("d-none", false);
 	} else {
 		document.getElementById("btn-back").classList.toggle("d-none", true);

@@ -1,11 +1,9 @@
-# Macro Deck Web Client for Macro Deck 2
-
+# Macro Deck Web Client Application for Macro Deck 2   
 
 <img height="64px" src="https://macrodeck.org/images/works_with_macrodeck2.png" />
 
 # Compatible devices
-The Macro Deck Web Client is compatible with almost all browsers that support the newest JavaScript features.
-
+This supports Windows and on the AHK script version, it requires AutoHotkey 1.1+. Not 2.0.
 
 # Third party licenses
 This app uses some awesome 3rd party libraries:

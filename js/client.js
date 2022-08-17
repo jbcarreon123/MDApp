@@ -54,11 +54,11 @@ function toggleDark() {
     dark = !dark;
     document.getElementById("body").classList.toggle("bg-dark");
     if (dark) {
-        document.getElementById("btn-dark").innerText = "Light";
+        document.getElementById("btn-fdark").innerText = "Light";
         document.getElementById("logo").setAttribute("src","images/logo.png" );
 
     } else {
-        document.getElementById("btn-dark").innerText = "Dark";
+        document.getElementById("btn-fdark").innerText = "Dark";
         document.getElementById("logo").setAttribute("src","images/logo2.png" );
     }
 } 

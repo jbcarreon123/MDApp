@@ -13,7 +13,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="author" content="Manuel Mayer">
+	<meta name="author" content="Manuel Mayer (modified by jbcarreon123)">
 	<meta name="application-name" content="Macro Deck">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -69,8 +69,8 @@
 
 </head>
 	<body id="body" onload="" class="bg-dark">
-		<button class="btn btn-danger d-none" id="btn-back" onclick="back()">Back</button>
-		<button class="btn btn-success" id="btn-fullscreen" onclick="openFullscreen()">Fullscreen</button>
+		<button class="btn btn-danger d-none" id="btn-back" onclick="ahk.Clicked(event)">Exit</button>
+		<button class="btn btn-success" id="btn-fullscreen" onclick="ahk.Clicked(event)">About</button>
 		<button class="btn btn-success" id="btn-dark" onclick="toggleDark()">Light</button>
 		<div class="connect-container container-fluid animate__animated animate__fadeIn" id="connect-container">
 			<div class="text-center text-w m-3">
@@ -125,7 +125,7 @@
 				<div class="text-center p-0 m-0">
 					<div class="row justify-content-md-center container-fluid">
 					  <div class="col col-sm">
-						<h5 class="mt-0 mb-0 font-weight-normal text-w">Web client <span id="labelVersion"></span> | Client id: <span id="client-id"></span></h5>
+						<h5 class="mt-0 mb-0 font-weight-normal text-w">MDApp 1.0.0 | Web client <span id="labelVersion"></span> | Client id: <span id="client-id"></span></h5>
 					 
 					  </div>
 					  

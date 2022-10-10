@@ -35,12 +35,12 @@ Loop, % NumMons {
 
 title = Macro Deck WebClient Program
 
-URLDownloadToFile, https://github.com/jbcarreon123/MDApp/archive/refs/heads/dev/update-to-2.1.4.zip, %A_Temp%\mdweb.zip
+URLDownloadToFile, https://github.com/jbcarreon212/MDApp/archive/refs/heads/main.zip, %A_Temp%\mdweb.zip
 RunWait cmd.exe /c mkdir %A_Temp%\mdweb,
 RunWait PowerShell.exe -Command Expand-Archive -LiteralPath '%A_Temp%\mdweb.zip' -DestinationPath '%A_Temp%\mdweb',, Hide
 
 name := new NeutronWindow()
-name.Load(A_Temp . "\mdweb\MDApp-dev-update-to-2.1.4\index.html")
+name.Load(A_Temp . "\mdweb\MDApp-main\index.html")
 
 name.Show(Center "x" x " y" y " w" A_ScreenWidth " h" A_ScreenHeight)
 return
